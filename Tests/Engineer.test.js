@@ -1,10 +1,10 @@
 const Engineer = require('../lib/Engineer');
 
 const engineerInfo = {
-    name: 'Ben',
+    name: 'Joaquin',
     id: 1,
     email: 'address@gmail.com',
-    GitHub: 'diff30140556',
+    GitHub: 'JLoya900',
     role: 'Engineer'
 };
 const engineer = new Engineer(engineerInfo);
@@ -18,7 +18,7 @@ describe('Engineer', () => {
 
     describe('getName', () => {
         it('should return a name when the "getName" function get called.', () => {
-            expect(engineer.getName()).toEqual('Ben'); 
+            expect(engineer.getName()).toEqual('Joaquin'); 
         })
     })
 
@@ -42,7 +42,7 @@ describe('Engineer', () => {
 
     describe('getGitHub', () => {
         it('should return a GitHub account when the "getGitHub" function get called.', () => {
-            expect(engineer.getGitHub()).toEqual('diff30140556'); 
+            expect(engineer.getGitHub()).toEqual('JLoya900'); 
         })
     })
 })
