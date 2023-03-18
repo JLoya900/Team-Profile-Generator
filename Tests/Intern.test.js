@@ -1,7 +1,7 @@
 const Intern = require('../lib/Intern');
 
 const internInfo = {
-    name: 'Ben',
+    name: 'Joaquin',
     id: 1,
     email: 'address@gmail.com',
     school: 'UCLA',
@@ -18,7 +18,7 @@ describe('Intern', () => {
 
     describe('getName', () => {
         it('should return a name when the "getName" function get called.', () => {
-            expect(intern.getName()).toEqual('Ben'); 
+            expect(intern.getName()).toEqual('Joaquin'); 
         })
     })
 
