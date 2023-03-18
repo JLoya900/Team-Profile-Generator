@@ -1,7 +1,7 @@
 const Manager = require('../lib/Manager');
 
 const managerInfo = {
-    name: 'Ben',
+    name: 'Joaquin',
     id: 1,
     email: 'address@gmail.com',
     office: '1A',
@@ -18,7 +18,7 @@ describe('Manager', () => {
 
     describe('getName', () => {
         it('should return a name when the "getName" function get called.', () => {
-            expect(manager.getName()).toEqual('Ben'); 
+            expect(manager.getName()).toEqual('Joaquin'); 
         })
     })
 
